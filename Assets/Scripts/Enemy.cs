@@ -31,7 +31,10 @@ public class Enemy : MonoBehaviour
 	/// </summary>
 	public void Start()
     {
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 683373d73013a01b53f4d17f81112b9d7146b23f
     }
 
     /// <summary>  
@@ -39,6 +42,7 @@ public class Enemy : MonoBehaviour
     /// </summary>  
     public void Update()
     {
+<<<<<<< HEAD
 		//ベクトルを求める
 		var toPlayer = (player_.transform.position - transform.position).normalized;
 		//前方の情報を読み取る
@@ -61,5 +65,7 @@ public class Enemy : MonoBehaviour
 		//回転軸が上向きか下向きかで反転させる
 		radian *= (cross.y / Mathf.Abs(cross.y));
 
+=======
+>>>>>>> 683373d73013a01b53f4d17f81112b9d7146b23f
     }
 }
